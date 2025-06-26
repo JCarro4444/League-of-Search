@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Campeones de LoL</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h2>Agregar Nuevo Campeón</h2>
+<form id="champion-form">
+  <input type="text" id="new-name" placeholder="Nombre del campeón" required>
+  <select id="new-apad">
+    <option value="true">AP</option>
+    <option value="false">AD</option>
+  </select>
+  <select id="new-typedamage">
+    <option value="true">Daño Mágico</option>
+    <option value="false">Daño Físico</option>
+  </select>
+  <input type="text" id="new-region" placeholder="Región" required>
+  <input type="url" id="new-icon" placeholder="URL del ícono" required>
+  <button type="submit">Agregar</button>
+</form>
+  <h1>Buscar Campeón</h1>
+  <input type="text" id="search" placeholder="Nombre del campeón">
+  <button onclick="searchChampion()">Buscar</button>
+
+  <div class="champions-section"></div>
+
+  <script src="index.js"></script>
+</body>
+</html>
+

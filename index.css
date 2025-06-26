@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  .champions-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .champion-card {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 0 10px #000;
+    text-align: left;
+  }
+  .champion-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  .search-opgg {
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .search-opgg input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  .search-opgg button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #1c75bc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  form {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #0d1117;
+    color: #fff;
+    border: 1px solid #30363d;
+    border-radius: 5px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #1c75bc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
